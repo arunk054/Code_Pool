@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Two dimensional point datatype implementation in javascript</title>
+    <script type="text/javascript" src="point.js"></script>
+    <script type="text/javascript" src="pointMain.js"></script>	
+    </script>
+  </head>
+  <body onload = "main()">
+	<h2><center>Implementation of a two dimensional point datatype in javascript</h2>
+	<p><b><center>Note: May not work on Internet Explorer.</center></b></p>
+  <form id = "form1">
+	    <h4>POINT-1: </h4>
+		Enter x-coordinate: &nbsp;<input type = "text" name = "x1" id = "x1" size=5/>&nbsp;&nbsp;
+		Enter y-coordinate: &nbsp;<input type = "text" name = "y1" id = "y1" size=5/>&nbsp;&nbsp;&nbsp;
+		Enter dx: &nbsp;<input type = "text" name = "dx1" id = "dx1" size=5/>&nbsp;&nbsp;
+		Enter dy: &nbsp;<input type = "text" name = "dy1" id = "dy1" size=5/><br/>
+	    <h4>POINT-2: </h4>
+		Enter x-coordinate: &nbsp;<input type = "text" name = "x2" id = "x2" size=5/>&nbsp;&nbsp;
+		Enter y-coordinate: &nbsp;<input type = "text" name = "y2" id = "y2" size=5/>&nbsp;&nbsp;&nbsp;
+		Enter dx: &nbsp;<input type = "text" name = "dx2" id = "dx2" size=5/>&nbsp;&nbsp;
+		Enter dy: &nbsp;<input type = "text" name = "dy2" id = "dy2" size=5/><br/><br/>
+
+		<p>Click the Evaluate button to create the 2D-points and perform operations on them. </p>
+	    <input type = "button" value = "!!--EVALUATE--!!" id = "compute" name = "compute"/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "button" value = "== CLEAR OUTPUT ==" id = "clear" name = "clear"/><br/>
+	<p><h4>Following is the output after evaluation:</h4></p>
+<textarea name = "output" id = "output" rows=25 cols=70 readonly style="font-family: arial"></textarea>
+  </form>
+  </body>
+</html>
