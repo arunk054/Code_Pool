@@ -1,7 +1,7 @@
 import ai.elements.*;
 import npuzzle.*;
 
-public class testState
+public class TestState
 {
 
 	public static void main(String args[]) throws InvalidActionException
